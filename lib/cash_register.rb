@@ -32,16 +32,16 @@ class CashRegister
       @total = @total - @discount
       return "After the discount, the total comes to $#{@total.to_i}."
     else
-    return "There is no discount to apply."
+      return "There is no discount to apply."
     end
   end
 
   def items
     @items
   end
+  
   def void_last_transaction
-    @total = @total.to_f -
-
+    @total = @total.to_f - @price
   end
 
 end
