@@ -47,7 +47,7 @@ class CashRegister
     else
       @total = @total.to_f - @price.to_f * @quantity
     end
-    
+
   end
 
 end
