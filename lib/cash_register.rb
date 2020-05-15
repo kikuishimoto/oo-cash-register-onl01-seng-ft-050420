@@ -42,10 +42,10 @@ class CashRegister
   end
 
   def void_last_transaction
-    if quantity > 1
-      @total = @total.to_f - @price.to_f * @quantity
+    if quanity > 1
+      @total = @total.to_f - @price.to_f * @quanity
     else
-      @total = @total.to_f - @price.to_f * @quantity
+      @total = @total.to_f - @price.to_f * @quanity
     end
 
   end
