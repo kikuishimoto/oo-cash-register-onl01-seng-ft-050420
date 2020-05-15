@@ -45,7 +45,7 @@ class CashRegister
     if quanity > 1
       @total = @total.to_f - @price.to_f * @quanity
     else
-      @total = @total.to_f - @price.to_f * @quanity
+      @total = @total.to_f - @price.to_f
     end
 
   end
