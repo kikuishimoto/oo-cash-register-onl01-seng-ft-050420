@@ -20,7 +20,7 @@ class CashRegister
     @items << item
   end
 
-  @total = price * quanity
+  @total += price * quanity
 
   @total
   end
